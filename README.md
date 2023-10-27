@@ -17,7 +17,7 @@ A seamless and intuitive interface for Telegram support. Enhance your user inter
 1. Clone the repository:
 
 ```
-git clone https://github.com/your-username/ChatBridge.git
+git clone https://github.com/jm7uz/ChatBridge.git
 ```
 
 2. Navigate to the project directory:
@@ -44,7 +44,7 @@ This project is licensed under the MIT License - see the [LICENSE](path-to-licen
 
 ### Credits
 
-Developed by [Your Name](Your Profile Link) and the awesome community of contributors!
+Developed by [DotDev Team](Your Profile Link) and the awesome community of contributors!
 
 ---
 
