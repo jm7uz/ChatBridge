@@ -11,6 +11,5 @@ public class User : Auditable
     public string Password { get; set; }
     public string UserName { get; set; }
     public string PhoneNumber { get; set; }
-    public UserAsset UserAsset { get; set; }
-
+    public ICollection<UserAsset> UserAsset { get; set; }
 }
