@@ -11,14 +11,5 @@ public enum MessageType
     File,
     Location,
     Contact,
-    MediaGroup,
-    Poll,
-    Gif,
-    Sticker,
-    PhotoAndText,
-    VideoAndText,
-    AudioAndText,
-    FileAndText,
-    GifAndText,
-    MediaGroupAndText
+   
 }
