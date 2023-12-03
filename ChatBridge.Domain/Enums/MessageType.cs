@@ -11,5 +11,4 @@ public enum MessageType
     File,
     Location,
     Contact,
-   
 }
