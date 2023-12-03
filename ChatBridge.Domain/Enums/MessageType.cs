@@ -10,5 +10,5 @@ public enum MessageType
     Voice,
     File,
     Location,
-    Contact,
+    Contact
 }
