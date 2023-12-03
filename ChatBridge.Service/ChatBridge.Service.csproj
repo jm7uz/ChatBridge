@@ -7,19 +7,14 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Remove="Configurations\**" />
-    <EmbeddedResource Remove="Configurations\**" />
-    <None Remove="Configurations\**" />
+    <PackageReference Include="AutoMapper" Version="12.0.1" />
+    <PackageReference Include="BCrypt.Net-Next" Version="4.0.3" />
+    <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.2.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Dtos\" />
-    <Folder Include="Exceptions\" />
-    <Folder Include="Extensions\" />
-    <Folder Include="Interfaces\" />
-    <Folder Include="Mappers\" />
-    <Folder Include="Helpers\" />
-    <Folder Include="Services\" />
+    <ProjectReference Include="..\ChatBridge.Domain\ChatBridge.Domain.csproj" />
   </ItemGroup>
 
 </Project>
