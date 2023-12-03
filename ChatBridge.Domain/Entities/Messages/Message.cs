@@ -1,7 +1,7 @@
 ﻿using ChatBridge.Domain.Commons;
 using ChatBridge.Domain.Enums;
 
-namespace ChatBridge.Domain.Entities;
+namespace ChatBridge.Domain.Entities.Messages;
 
 public class Message : Auditable
 {
