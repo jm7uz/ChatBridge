@@ -7,19 +7,18 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Remove="Configurations\**" />
-    <EmbeddedResource Remove="Configurations\**" />
-    <None Remove="Configurations\**" />
+    <Folder Include="Extensions\" />
+    <Folder Include="Mappers\" />
+    <Folder Include="Helpers\" />
+    <Folder Include="Extensions\" />
+    <Folder Include="Helpers\" />
+    <Folder Include="Mappers\" />
+    <Folder Include="Services\" />
+    <Folder Include="Services\" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Dtos\" />
-    <Folder Include="Exceptions\" />
-    <Folder Include="Extensions\" />
-    <Folder Include="Interfaces\" />
-    <Folder Include="Mappers\" />
-    <Folder Include="Helpers\" />
-    <Folder Include="Services\" />
+    <ProjectReference Include="..\ChatBridge.Domain\ChatBridge.Domain.csproj" />
   </ItemGroup>
 
 </Project>
