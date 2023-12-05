@@ -17,4 +17,12 @@
     <ProjectReference Include="..\ChatBridge.Domain\ChatBridge.Domain.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Http" Version="2.2.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ChatBridge.Domain\ChatBridge.Domain.csproj" />
+  </ItemGroup>
+
 </Project>
