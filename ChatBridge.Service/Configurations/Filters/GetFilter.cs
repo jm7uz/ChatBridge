@@ -2,5 +2,5 @@
 
 public class GetFilter
 {
-    public string Property {  get; set; }
+    public string Property { get; set; }
 }
