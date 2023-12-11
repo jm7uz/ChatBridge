@@ -18,10 +18,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\ChatBridge.Data\ChatBridge.Data.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Controllers\" />
+    <ProjectReference Include="..\ChatBridge.Service\ChatBridge.Service.csproj" />
   </ItemGroup>
 
 </Project>

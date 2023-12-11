@@ -1,4 +1,5 @@
 ﻿using ChatBridge.Domain.Entities;
+using ChatBridge.Domain.Entities.Messages;
 using Microsoft.EntityFrameworkCore;
 using System;
 

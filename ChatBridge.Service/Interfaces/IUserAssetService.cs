@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Http;
 using ChatBridge.Service.Dtos.UserAssets;
-using ChatBridge.Service.Configurations.Paginations;
+using ChatBridge.Service.Configurations;
 
 namespace ChatBridge.Service.Interfaces;
 
