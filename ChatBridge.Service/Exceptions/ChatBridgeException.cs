@@ -1,10 +1,14 @@
-﻿namespace ChatBridge.Service.Exceptions;
+﻿using Microsoft.AspNetCore.Http;
+
+namespace ChatBridge.Service.Exceptions;
 
 public class ChatBridgeException : Exception
 {
-    readonly int _status;
-    public ChatBridgeException(int status, string message ) : base(message)
+    public int StatusCode { get; set; }
+
+    public ChatBridgeException(int code, string message) : base(message)
     {
-        _status = status;
+        StatusCode = code;
     }
 }
+

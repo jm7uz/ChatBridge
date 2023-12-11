@@ -11,4 +11,3 @@ public class PaginationParams
     }
     public int PageIndex { get; set; } = 1;
 }
-}

@@ -16,7 +16,6 @@ public class Repository<TEntity> : IRepository<TEntity> where TEntity : Auditabl
         this._dbSet = _dbContext.Set<TEntity>();
     }
 
-
     public async Task<TEntity> InsertAsync(TEntity entity)
     {
         var entry = await this._dbSet.AddAsync(entity);
@@ -26,7 +25,6 @@ public class Repository<TEntity> : IRepository<TEntity> where TEntity : Auditabl
         return entry.Entity;
     }
 
-
     public async Task<bool> DeleteAsync(long id)
     {
         var entity = await this._dbSet.FirstOrDefaultAsync(e => e.Id == id);
@@ -35,16 +33,11 @@ public class Repository<TEntity> : IRepository<TEntity> where TEntity : Auditabl
         return await _dbContext.SaveChangesAsync() > 0;
     }
 
-
     public IQueryable<TEntity> SelectAll()
         => this._dbSet;
 
-
-
     public async Task<TEntity> SelectByIdAsync(long id)
         => await this._dbSet.FirstOrDefaultAsync(e => e.Id == id);
-
-
 
     public async Task<TEntity> UpdateAsync(TEntity entity)
     {
